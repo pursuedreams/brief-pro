@@ -1,0 +1,18 @@
+.tit{
+    width:100%;
+    height:40px;
+    line-height: 40px;
+    color:#000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.pic-title{
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.img-box{width:100%;margin-top:5px;}
+.img-box img{width:100%;height:auto;}

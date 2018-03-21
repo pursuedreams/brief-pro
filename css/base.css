@@ -1,0 +1,149 @@
+/*清空*/
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+html, body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, label, textarea, p, blockquote, table, th, td {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}
+body, textarea {
+    font: 400 14px/1.5 Arial;
+    color: #666;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+a:hover {
+    text-decoration: none;
+}
+em, i {
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 700;
+}
+label, input, select, img {
+    vertical-align: middle;
+}
+img {
+    background: transparent;
+    border: 0 none;
+    vertical-align: middle;
+}
+ol, ul {
+    list-style: none;
+}
+table, th, td, fieldset, legend {
+    font-weight: 400;
+    border: 0 none;
+    border-collapse: collapse;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+}
+* {
+    box-sizing: border-box;
+}
+input[type="text"], input[type="password"], input[type="number"], input[type="email"], input[type="search"], input[type="tel"] {
+    vertical-align: middle;
+    outline: 0;
+    -webkit-appearance: none;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+
+    /* color: #fff;*/
+}
+select {
+    outline: 0;
+    -webkit-appearance: none;
+}
+textarea {
+    display: block;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid #d7d7d7;
+    outline: none;
+    border-radius: 3px;
+    background: -webkit-linear-gradient(#ffffff 0%, #ffffff 5%);
+}
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;/*禁止用户选择文本*/
+}
+
+/*取消ios长按默认弹出框*/
+body.disable-default-action {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+body input, body textarea {
+    -webkit-user-select: auto;
+    -webkit-touch-callout: inherit;
+}
+
+/**
+ * 常用样式
+ * author: 暖暖;
+ * create: 2018-03-17;
+ */
+
+/* 浮动 */
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+
+/*文本隐藏属性*/
+.text-hide {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.text-hide-02 {
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.nowrap {
+    white-space: nowrap;
+}
+body {
+    font-size: 14px;
+}
+html, body {
+    font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", Helvetica, "Microsoft YaHei", Arial;
+}
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*, *::before, *::after {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*********项目开始***************/

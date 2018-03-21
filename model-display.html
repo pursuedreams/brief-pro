@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>模特展示</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+        <meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+        <link href="css/base.css" type="text/css" rel="stylesheet">
+        <link href="css/model-display.css" type="text/css" rel="stylesheet">
+        <link href="https://cdn.bootcss.com/Swiper/3.3.1/css/swiper.min.css" rel="stylesheet">
+        <script type="text/javascript">
+        //页面适配
+        (function() {
+            function getClientWidth() {
+                var cw = document.documentElement.clientWidth;
+                if (cw > 750) cw = 750;
+                document.documentElement.style.setProperty('font-size', cw / 7.5 + 'px', 'important');
+            }
+            var Timer = null;
+            window.addEventListener("resize", function() {
+                clearTimeout(Timer), Timer = setTimeout(getClientWidth, 300)
+            }, false);
+
+            getClientWidth();
+        })(window);
+        </script>
+    </head>
+    <body>
+    <div class="page">
+        <div class="tit">分类</div>
+        <div class="content-wrap clearfix">
+            <a href="model-display-list.html?type=manPic">
+                <div class="item-wrap">
+                    <img src="static/index/9.png">
+                    <div class="label">男装</div>
+                </div>
+            </a>
+            <a href="model-display-list.html?type=femalePic">
+            <div class="item-wrap">
+                <img src="static/index/10.png">
+                <div class="label">女装</div>
+            </div>
+            </a>
+            <a href="model-display-list.html?type=childPic">
+            <div class="item-wrap">
+                <img src="static/index/11.png">
+                <div class="label">童装</div>
+            </div>
+            </a>
+            <a href="model-display-list.html?type=loversPic">
+            <div class="item-wrap">
+                <img src="static/index/12.png">
+                <div class="label">情侣装</div>
+            </div>
+            </a>
+           <!--  <a href="model-display-list.html?type=foreignmPic">
+            <div class="item-wrap">
+                <img src="static/model/foreignm/13.jpg">
+                <div class="label">外模</div>
+            </div>
+            </a> -->
+        </div>
+    </div>
+    </body>
+</html>

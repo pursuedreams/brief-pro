@@ -1,0 +1,226 @@
+.page {
+    width: 100%;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: solid 1px #e1e1e1;
+    font-size: 18px;
+    color: #ff7385;
+    line-height: 50px;
+    font-family: 'iconfont';
+    font-style: normal;
+}
+.banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow:hidden;
+}
+.swiper-slide {
+    width: 100%;
+    height: 300px;
+}
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+.banner .swiper-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #fff;
+    opacity: .5;
+}
+.banner .swiper-pagination .swiper-pagination-bullet-active {
+    background: rgba(255, 115, 133, 0.5);
+}
+
+/****菜单****/
+.nav {
+
+    /*width: 100%;*/
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;   
+    /*-webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;*/
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 15px 0 5px;
+    background: #fff;
+}
+.nav li {
+    width: 20%;
+   /* float: left;*/
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.nav li a {
+    margin: auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 28px;
+    text-align: center;
+}
+.home-page {
+    background: #faa4b7;
+}
+.about-us {
+    background: #80c7fc;
+}
+.scene-display {
+    background: #fdc16e;
+}
+.model-works {
+    background: #8cdfe1;
+}
+.join {
+    background: #fecb33;
+}
+.contact {
+    background: #fea09d;
+}
+.model-photo-wrap {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.title {
+    position: relative;
+    height: 32px;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.title::before {
+    content: '';
+    position: relative;
+    top: 4px;
+    left: 0;
+    width: 5px;
+    height: 20px;
+    background-color: #ff7385;
+    display: inline-block;
+    margin-right: 6px;
+}
+.title .title-right {
+    display: block;
+    margin-right: 14px;
+    float: right;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    color: #666666;
+    position: relative;
+    width: 100px;
+}
+.title-right-icon {
+    display: block;
+    width: 12px;
+    height: 19px;
+    background: url(../img/hm-icon-03.png) no-repeat;
+    background-size: 100% 100%;
+    float: right;
+    margin: 11px 0px 0px 11px;
+}
+.model-photo-list {
+    padding: 5px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    top: -10px;
+    box-sizing: border-box;
+}
+.model-photo-list li {
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    margin: 5px 1% 4px 1%;
+    background-color: #fff;
+    padding: 0;
+    width: 47%;
+    border-radius: 4px;
+    border: solid 1px #ebebeb;
+    box-sizing: border-box;
+}
+.model-photo-list li.model-photo-item a img {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.model-photo-list li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #ffffff;
+    box-shadow: 0 2px 2px 0 #e3e3e3;
+    height:2.8rem;
+}
+.model-photo-list li a img {
+    width: 100%;   /* float: left;*/
+    display: block;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.photo-info {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 5px 10px 8px;
+}
+.model-photo-list li .photo-info h4 {
+    font-weight: 400;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 16px;
+    color: #666666;
+    text-align: left;
+}
+.bottom-link {
+    margin-top: 10px;
+    display: block;
+}
+.bottom-link-img {
+    width: 100%;
+}
+.footer-copyright {
+    margin: 10px 0 13px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    text-align: center;
+    color: #999999;
+    font-weight: 400;
+    overflow: hidden;
+}
+.intelligentbox{
+    width:100%;
+    margin-top:10px;
+}
+.panoramabox,.videobox{width:48%;float:left;overflow:hidden;position:relative;}
+.panoramabox{ margin-right:2%;box-sizing: border-box;}
+.videobox{margin-left:2%;box-sizing: border-box;}
+.panoramabox img,.videobox img{width:100%;}

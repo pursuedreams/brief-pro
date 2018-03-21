@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>基地展示</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+        <meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+        <link href="css/base.css" type="text/css" rel="stylesheet">
+        <link href="css/scene-indoor.css" type="text/css" rel="stylesheet">
+        <link href="https://cdn.bootcss.com/Swiper/3.3.1/css/swiper.min.css" rel="stylesheet">
+        <script type="text/javascript">
+        //页面适配
+        (function() {
+            function getClientWidth() {
+                var cw = document.documentElement.clientWidth;
+                if (cw > 750) cw = 750;
+                document.documentElement.style.setProperty('font-size', cw / 7.5 + 'px', 'important');
+            }
+            var Timer = null;
+            window.addEventListener("resize", function() {
+                clearTimeout(Timer), Timer = setTimeout(getClientWidth, 300)
+            }, false);
+
+            getClientWidth();
+        })(window);
+        </script>
+    </head>
+    <body>
+    <div class="page">
+        <div class="tit">基地展示</div>
+        <div class="content-wrap clearfix">
+            <a href="scene-indoor-list.html?type=streetPic">
+            <div class="item-wrap">
+                <img src="static/outdoorscene/street/11.jpg">
+                <div class="label">街道外景</div>
+            </div>
+            </a>
+            <a href="scene-indoor-list.html?type=sunroomPic">
+            <div class="item-wrap">
+                <img src="static/outdoorscene/sunroom/12.jpg">
+                <div class="label">阳光房</div>
+            </div>
+            </a>
+            <a href="scene-indoor-list.html?type=yijiaPic">
+                <div class="item-wrap">
+                    <img src="static/indoorscene/1/1.jpg">
+                    <div class="label">北欧宜家风</div>
+                </div>
+            </a>
+           <!--  <a href="scene-indoor-list.html?type=xiandaiPic">
+            <div class="item-wrap">
+                <img src="static/indoorscene/2/6.jpg">
+                <div class="label">2号黑白现代</div>
+            </div>
+            </a> -->
+            <a href="scene-indoor-list.html?type=wanghongPic">
+            <div class="item-wrap">
+                <img src="static/indoorscene/6/6.jpg">
+                <div class="label">网红酒店风</div>
+            </div>
+            </a>
+            <a href="scene-indoor-list.html?type=gongyePic">
+            <div class="item-wrap">
+                <img src="static/indoorscene/3/3.jpg">
+                <div class="label">美式工业风</div>
+            </div>
+            </a>
+            <a href="scene-indoor-list.html?type=xiaoqingxinPic">
+            <div class="item-wrap">
+                <img src="static/indoorscene/4/6.jpg">
+                <div class="label">INS/小清新风</div>
+            </div>
+            </a>
+            <a href="scene-indoor-list.html?type=laonianPic">
+            <div class="item-wrap">
+                <img src="static/indoorscene/9/6.jpg">
+                <div class="label">中式古典</div>
+            </div>
+            </a>
+            <a href="scene-indoor-list.html?type=rixiPic">
+            <div class="item-wrap">
+                <img src="static/indoorscene/8/6.jpg">
+                <div class="label">日系民宿</div>
+            </div>
+            </a>
+        </div>
+    </div>
+    </body>
+</html>

@@ -13,7 +13,7 @@ $(function(){
         },
         getData: function() {
             var type = getUrlParam('type');
-            $.getJSON('/brief-pro/static/data.json', function(json, textStatus) {
+            $.getJSON('./static/data.json', function(json, textStatus) {
                 // console.log(json, json.imgData[type])
                 var datalist = json.imgData[type];
                 var dataType = json.picTypes[type];

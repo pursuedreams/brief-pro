@@ -4,7 +4,7 @@
             this.getData();
         },
         getData: function() {
-            $.getJSON('/brief-pro/static/newsData.json', function(json, textStatus) {
+            $.getJSON('./static/newsData.json', function(json, textStatus) {
                 var html = '';
                 var datalist = json.data;
                 for (var i=0; i < datalist.length; i++) {
